@@ -1,0 +1,6 @@
+Links úteis:
+
+https://techtutorialsx.com/2016/07/21/esp8266-post-requests/
+
+https://github.com/juliocpmelo/nodered-examples/tree/master/iotmiddlewareExamples
+

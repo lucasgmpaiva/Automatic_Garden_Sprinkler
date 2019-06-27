@@ -140,7 +140,7 @@ if($result === FALSE || $resultUmidade === FALSE) {
 
                       yAxis: {
                           title: {
-                              text: 'Number of Employees'
+                              text: 'm^3'
                           }
                       },
                       legend: {
@@ -159,7 +159,7 @@ if($result === FALSE || $resultUmidade === FALSE) {
                       },
 
                       series: [{
-                          name: 'Installation',
+                          name: 'Consumption',
                           data: [0, parseInt(array[0]['volumeAgua']), parseInt(array[1]['volumeAgua']), parseInt(array[2]['volumeAgua'])]
                       }],
 
@@ -187,7 +187,7 @@ if($result === FALSE || $resultUmidade === FALSE) {
         <div class="card mb-3">
           <div class="card-header">
             <i class="fas fa-chart-area"></i>
-            Nível de Atividade</div>
+            Umidade do solo</div>
           <div class="card-body"><div class="chartjs-size-monitor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
            <div id="containerSolo"></div>
         <script type="text/javascript">
@@ -218,7 +218,7 @@ if($result === FALSE || $resultUmidade === FALSE) {
             },
 
             series: [{
-                name: 'Installation',
+                name: 'Level',
                 data: [0, parseInt(arrayUmidade[0]['porcentagemSolo']), parseInt(arrayUmidade[1]['porcentagemSolo']), parseInt(arrayUmidade[2]['porcentagemSolo'])]
             }],
 
